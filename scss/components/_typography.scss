@@ -1,0 +1,24 @@
+@use "../custom" as *;
+
+.display-2 {
+  margin-bottom: 1rem;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+  }
+
+  &--text {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1.2rem;
+    font-family: "Poppins", sans-serif;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.4rem;
+      display: inline-block;
+    }
+  }
+}
