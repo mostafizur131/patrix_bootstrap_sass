@@ -23,8 +23,24 @@
   }
 }
 
-// Heading Lines
+.display-3 {
+  &--title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-block;
+    background-image: linear-gradient(to Right, $primary, $secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+    @include media-breakpoint-up(lg) {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+// Heading Lines
 .heading-line::before {
   content: "";
   width: 10rem;
@@ -42,4 +58,10 @@
   margin: 0 auto;
   margin-bottom: 1rem;
   background-color: $primary;
+}
+
+// Border Right
+.border-right {
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
 }
