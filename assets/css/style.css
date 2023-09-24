@@ -12054,6 +12054,48 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3.5rem 1.5rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials__card .ratings i {
+  font-size: 1rem;
+}
+.testimonials__image {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__image img {
+  border-radius: 50%;
+  border: 0.325rem solid rgba(153, 38, 240, 0.7);
+}
+.testimonials__name {
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+}
+.testimonials__name p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
